@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Script curtesy to @railsgirls
+
 if
   [[ "${USER:-}" == "root" ]]
 then
