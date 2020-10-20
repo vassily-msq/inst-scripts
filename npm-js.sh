@@ -20,3 +20,5 @@ sudo npm install -g lodash
 # sudo apt purge npm
 # sudo snap remove node
 
+# misc
+# npm run build --scripts-prepend-node-path
