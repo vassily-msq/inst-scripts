@@ -3,7 +3,7 @@
 sudo apt remove unattended-upgrades
 sudo apt update
 sudo apt-upgrade -y
-sudo apt install git curl tree snapd build-essential gcc make perl dkms gvfs-bin -y
+sudo apt install git curl tree snapd build-essential guake gcc make perl dkms gvfs-bin -y
 # Install the VBox, if needed
 mkdir VBox
 cd /media/vl/VBox*
@@ -33,6 +33,9 @@ sudo dpkg -i code.deb
 # Download XAMPP
 # chmod 755 xampp-linux-*-installer.run
 # sudo ./xampp-linux-*-installer.run
+
+# SET UP PYTHON
+# python.sh
 
 
 # SET UP DOCKER 
